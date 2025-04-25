@@ -12,7 +12,7 @@
         <module>core</module>
         <module>inputs</module>
         <module>outputs</module>
-        <module>extensions</module>
+        <module>plugins</module>
         <module>auto-excel-springboot-starter</module>
     </modules>
 
