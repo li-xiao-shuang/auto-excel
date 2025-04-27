@@ -7,6 +7,4 @@
         <version>1.0.0-SNAPSHOT</version>
     </parent>
     <artifactId>auto-excel-springboot-starter</artifactId>
-    <name>Archetype - auto-excel-springboot-starter</name>
-    <url>http://maven.apache.org</url>
 </project>

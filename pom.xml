@@ -20,6 +20,27 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <org.autoexcel.version>1.0.0-SNAPSHOT</org.autoexcel.version>
     </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.autoexcel</groupId>
+                <artifactId>outputs</artifactId>
+                <version>${org.autoexcel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.autoexcel</groupId>
+                <artifactId>inputs</artifactId>
+                <version>${org.autoexcel.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.autoexcel</groupId>
+                <artifactId>plugins</artifactId>
+                <version>${org.autoexcel.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
 </project>
